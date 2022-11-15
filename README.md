@@ -6,6 +6,10 @@ Everything you need to build a Svelte project, powered by [`create-svelte`](http
 
 ## Env variables
 
+Copy `.env.example` and rename it to `.env`
+
+The original SWAPI is https://swapi.dev/, but the SSL certificate was expired when I tested it. For this reason I added a 'backup' API https://swapi.tech/. This one has almost the same data, but is structured a little bit different.
+
 ## Creating a project
 
 If you're seeing this, you've probably already done this step. Congrats!
