@@ -34,10 +34,6 @@
 		transform: scale(1.025);
 	}
 
-	a:hover {
-		underline: none;
-	}
-
 	h1,
 	p {
 		margin: 0;
