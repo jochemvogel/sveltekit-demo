@@ -2,7 +2,7 @@ import { error } from '@sveltejs/kit';
 import type { PageLoad } from './$types';
 
 export const load: PageLoad = async ({ fetch, params }) => {
-	const res = await fetch(`/starwars/${params.character}.json`);
+	const res = await fetch(`/api/starwars/${params.character}`);
 
 	if (res.ok) {
 		const result = await res.json();

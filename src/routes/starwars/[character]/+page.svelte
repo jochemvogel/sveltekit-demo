@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 
-	export let data: PageData; // @TODO: Wellicht dit nog iets desctructen?
+	export let data: PageData;
 
 	// Workaround if API is not working
 	import { API_VARIANT } from '$lib/env';
